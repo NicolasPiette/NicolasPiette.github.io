@@ -1,0 +1,14 @@
+header h4{
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+h1, h3{
+	text-align: center;
+}
+
+footer{
+    position: fixed;
+	bottom: 0;				
+}
