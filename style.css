@@ -1,16 +1,29 @@
-/* #0b0d10 */
-
-header h4{
-	font-weight: bold;
-	color: white;
-	text-align: center;
+/* Navbar background */
+.navbar.custom-navbar 
+{
+  background-color: #1f2937; 
 }
 
-h1, h3{
-	text-align: center;
+/* Navbar link styles */
+.navbar.custom-navbar .nav-link 
+{
+  color: #fff;
+  text-decoration: none;  
 }
 
-footer{
-    position: fixed;
-	bottom: 0;				
+/* Hover/focus/active link decoration */
+.navbar.custom-navbar .nav-link:hover,
+.navbar.custom-navbar .nav-link:focus,
+.navbar.custom-navbar .nav-link.active 
+{
+  color: #facc15;
+  text-decoration: underline;     
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+}
+
+footer
+{
+	border: 2px solid black; 
+	text-align: center;
 }
