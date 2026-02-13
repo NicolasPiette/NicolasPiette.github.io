@@ -1,13 +1,18 @@
+body
+{
+	background-color: #181a1f; 
+	color: #fefefe;
+}
+
 /* Navbar background */
 .navbar.custom-navbar 
 {
-	background-color: #1f2937; 
+	border-bottom: 1px solid #2f343f;
 }
 
 /* Navbar link styles */
 .navbar.custom-navbar .nav-link 
 {
-	color: #fff;
 	text-decoration: none; 
 }
 
@@ -16,16 +21,10 @@
 .navbar.custom-navbar .nav-link:focus,
 .navbar.custom-navbar .nav-link.active 
 {
-	color: #facc15;
+	background-color: #2f343f;
+	padding: 2px;
+	color: #00b0ff;
 	font-weight: bold;
 	text-underline-offset: 4px;
 	text-decoration-thickness: 2px;
-}
-
-/* Footer */
-footer
-{
-	border: 2px solid black; 
-	text-align: center;
-	bottom: 0;
 }

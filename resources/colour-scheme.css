@@ -1,0 +1,54 @@
+/*
+  Personal website dark palette
+  Visual reference + semantic tokens only (not applied anywhere).
+*/
+
+:root {
+  /* Background / surfaces */
+  --bg-canvas: #181a1f;
+  --bg-subtle: #1a1d23;
+  --bg-elevated: #23262e;
+  --bg-panel: #2f343f;
+  --bg-panel-alt: #353945;
+  --bg-muted: #404552;
+
+  /* Text */
+  --text-primary: #fefefe;
+  --text-secondary: #d3dae3;
+  --text-muted: #bdc3c7;
+  --text-soft: #666a73;
+  --text-on-accent: #fefefe;
+  --text-on-selection: #2e3440;
+
+  /* Brand / accents */
+  --accent-primary: #3454d1;
+  --accent-secondary: #1d99f3;
+  --accent-cyan: #00b0ff;
+  --accent-teal: #00e8c6;
+  --accent-violet: #c74ded;
+
+  /* Links */
+  --link: #00e8c6;
+  --link-hover: #00b0ff;
+  --link-visited: #7cb7ff;
+  --link-muted: #5294e2;
+
+  /* Interactive states */
+  --selection-bg: #3454d1;
+  --selection-bg-alt: #1d99f3;
+  --focus-ring: #3454d1;
+  --hover-tint: #3daee9;
+  --active-tint: #3daee9;
+
+  /* Borders / separators */
+  --border-strong: #4c566a;
+  --border-default: #404552;
+  --border-soft: #2f343f;
+
+  /* Feedback / status */
+  --success: #84ff39;
+  --warning: #f39c12;
+  --danger: #ff007a;
+  --info: #3daee9;
+  --neutral: #f3d56e;
+}
