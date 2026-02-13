@@ -1,14 +1,14 @@
 /* Navbar background */
 .navbar.custom-navbar 
 {
-  background-color: #1f2937; 
+	background-color: #1f2937; 
 }
 
 /* Navbar link styles */
 .navbar.custom-navbar .nav-link 
 {
-  color: #fff;
-  text-decoration: none;  
+	color: #fff;
+	text-decoration: none; 
 }
 
 /* Hover/focus/active link decoration */
@@ -16,14 +16,16 @@
 .navbar.custom-navbar .nav-link:focus,
 .navbar.custom-navbar .nav-link.active 
 {
-  color: #facc15;
-  text-decoration: underline;     
-  text-underline-offset: 4px;
-  text-decoration-thickness: 2px;
+	color: #facc15;
+	font-weight: bold;
+	text-underline-offset: 4px;
+	text-decoration-thickness: 2px;
 }
 
+/* Footer */
 footer
 {
 	border: 2px solid black; 
 	text-align: center;
+	bottom: 0;
 }
