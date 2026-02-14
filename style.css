@@ -1,7 +1,7 @@
 /* Body */
 body
 {
-	font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;2
+	font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
 	background-color: var(--bg-canvas, #181a1f);
 	color: var(--text-primary, #fefefe);
 }
