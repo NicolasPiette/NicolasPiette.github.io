@@ -1,13 +1,22 @@
+/* Body */
 body
 {
-	background-color: #181a1f; 
-	color: #fefefe;
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: var(--bg-canvas, #181a1f);
+	color: var(--text-primary, #fefefe);
+}
+
+/* Main header */
+main h1
+{
+	font-weight: bold;
+	margin-bottom: 2rem;
 }
 
 /* Navbar background */
 .navbar.custom-navbar 
 {
-	border-bottom: 1px solid #2f343f;
+	border-bottom: 1px solid var(--border-soft, #2f343f);
 }
 
 /* Navbar link styles */
@@ -21,13 +30,68 @@ body
 /* Hover link decoration */
 .navbar.custom-navbar .nav-link:hover
 {
-	background-color: #23262e;
-	color: #00b0ff;
+	background-color: var(--bg-elevated, #23262e);
+	color: var(--accent-cyan, #00b0ff);
+}
+
+/* Keyboard focus decoration */
+.navbar.custom-navbar .nav-link:focus-visible
+{
+	background-color: var(--bg-elevated, #23262e);
+	color: var(--accent-cyan, #00b0ff);
+	outline: 2px solid var(--accent-cyan, #00b0ff);
+	outline-offset: 2px;
 }
 
 /* Active link decoration */
 .navbar.custom-navbar .nav-link.active 
 {
 	font-weight: bold;
-	color: #00b0ff;
+	color: var(--accent-cyan, #00b0ff);
+}
+
+/* Project cards */
+.project-card-link
+{
+	display: block;
+	height: 100%;
+	text-decoration: none;
+	color: var(--text-primary, #fefefe);
+}
+
+.project-card-link:hover,
+.project-card-link:focus-visible
+{
+	color: var(--text-primary, #fefefe);
+}
+
+.project-card-link:focus-visible
+{
+	outline: 2px solid var(--accent-cyan, #00b0ff);
+	outline-offset: 4px;
+	border-radius: 14px;
+}
+
+.project-card
+{
+	height: 100%;
+	padding: 1.5rem;
+	border: 1px solid var(--border-soft, #2f343f);
+	border-radius: 12px;
+	background-color: var(--bg-elevated, #23262e);
+}
+
+.project-card-title
+{
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin-bottom: 0.75rem;
+}
+
+/* Footer */
+.site-footer
+{
+	margin-top: 2rem;
+	border-top: 1px solid var(--border-soft, #2f343f);
+	color: var(--text-secondary, #d3dae3);
 }
