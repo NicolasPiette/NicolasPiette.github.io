@@ -14,17 +14,20 @@ body
 .navbar.custom-navbar .nav-link 
 {
 	text-decoration: none; 
+	padding: 8px;
+	border-radius: 8px;
 }
 
-/* Hover/focus/active link decoration */
-.navbar.custom-navbar .nav-link:hover,
-.navbar.custom-navbar .nav-link:focus,
+/* Hover link decoration */
+.navbar.custom-navbar .nav-link:hover
+{
+	background-color: #23262e;
+	color: #00b0ff;
+}
+
+/* Active link decoration */
 .navbar.custom-navbar .nav-link.active 
 {
-	background-color: #2f343f;
-	padding: 2px;
-	color: #00b0ff;
 	font-weight: bold;
-	text-underline-offset: 4px;
-	text-decoration-thickness: 2px;
+	color: #00b0ff;
 }
