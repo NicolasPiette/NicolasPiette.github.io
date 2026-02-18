@@ -8,7 +8,7 @@
 		<link href="resources/colour-scheme.css" rel="stylesheet">
 		<link rel="preconnect" href="https://rsms.me" crossorigin>
 		<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
 		<link href="resources/icons/np-logo.png" rel="icon" type="image/png">
 	</head>
 	<body>
@@ -31,17 +31,54 @@
 		</header>
 	
 		<!-- Main -->
-		<main class="container py-4">
-			<h1>Projects</h1>
+		<main class="container py-5">
 			<div class="row g-4">
-				<div class="col-12 col-md-6 col-lg-4">
-					<a class="project-card-link" href="projects/ping-vs-pong/index.html" target="_blank" rel="noopener noreferrer">
-						<article class="project-card">
-							<h3 class="project-card-title">Ping vs. Pong</h3>
-							<p class="mb-0">A browser game project focused on canvas gameplay and interaction.</p>
-						</article>
+				<div class="col-12">
+					<h1>Projects</h1>
+				</div>
+				
+				<div class="col-12- col-md-6">
+					<a href="projects/ping-vs-pong/index.html" 
+						class="project-card-link" 
+						target="_blank">
+						<div class="project-card">
+							<div class="project-card-title">
+								Ping vs. Pong
+							</div>
+							<p>
+								Tech Stack: JavaScript, HTML, CSS
+							</p>
+							<ul>
+								<li>Developed a browser-based recreation of the classic pong arcade game</li>
+								<li>Implemented real-time ball physics and collision detection</li>
+								<li>Built paddle movement controls using keyboard event listeners</li>
+								<li>Designed game layout and styling using modern CSS</li>
+							</ul>
+						</div>
 					</a>
 				</div>
+
+				<div class="col-12 col-md-6">
+					<a href="#" class="project-card-link">
+						<div class="project-card">
+							<div class="project-card-title">
+								StudySync
+							</div>
+
+							<p>
+								Tech Stack: JavaScript, Node.js, Express, MongoDB
+							</p>
+
+							<ul>
+								<li>Developed a full-stack task management application for tracking academic assignments</li>
+								<li>Implemented RESTful API endpoints with full CRUD functionality</li>
+								<li>Designed user authentication using session-based login</li>
+								<li>Structured backend using MVC architecture principles</li>
+							</ul>
+						</div>
+					</a>
+				</div>
+
 			</div>
 		</main>
 	
